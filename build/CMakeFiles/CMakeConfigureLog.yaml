@@ -25,7 +25,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -43,7 +43,7 @@ events:
       - "/usr/local/bin/apps/uname"
       - "/home/jordan/.local/bin/uname"
       - "/home/jordan/.local/lib/hyde/uname"
-      - "/home/jordan/Documents/coding/Raylib/game/build/uname"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/uname"
       - "/home/jordan/.cargo/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
@@ -100,7 +100,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -117,7 +117,7 @@ events:
       - "/usr/local/bin/apps/gmake"
       - "/home/jordan/.local/bin/gmake"
       - "/home/jordan/.local/lib/hyde/gmake"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gmake"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gmake"
       - "/home/jordan/.cargo/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
@@ -133,7 +133,7 @@ events:
       - "/usr/local/bin/apps/make"
       - "/home/jordan/.local/bin/make"
       - "/home/jordan/.local/lib/hyde/make"
-      - "/home/jordan/Documents/coding/Raylib/game/build/make"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/make"
       - "/home/jordan/.cargo/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
@@ -191,7 +191,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -208,7 +208,7 @@ events:
       - "/usr/local/bin/apps/c++"
       - "/home/jordan/.local/bin/c++"
       - "/home/jordan/.local/lib/hyde/c++"
-      - "/home/jordan/Documents/coding/Raylib/game/build/c++"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/c++"
       - "/home/jordan/.cargo/bin/c++"
       - "/usr/local/sbin/c++"
       - "/usr/local/bin/c++"
@@ -296,7 +296,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+        /home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -324,7 +324,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -380,7 +380,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -436,7 +436,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -492,7 +492,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -548,7 +548,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -604,7 +604,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -660,7 +660,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -716,7 +716,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -772,7 +772,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -789,7 +789,7 @@ events:
       - "/usr/local/bin/apps/dlltool"
       - "/home/jordan/.local/bin/dlltool"
       - "/home/jordan/.local/lib/hyde/dlltool"
-      - "/home/jordan/Documents/coding/Raylib/game/build/dlltool"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/dlltool"
       - "/home/jordan/.cargo/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
@@ -845,7 +845,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -901,7 +901,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -918,7 +918,7 @@ events:
       - "/usr/local/bin/apps/tapi"
       - "/home/jordan/.local/bin/tapi"
       - "/home/jordan/.local/lib/hyde/tapi"
-      - "/home/jordan/Documents/coding/Raylib/game/build/tapi"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/tapi"
       - "/home/jordan/.cargo/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -977,7 +977,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -994,7 +994,7 @@ events:
       - "/usr/local/bin/apps/gcc-ar-15.2"
       - "/home/jordan/.local/bin/gcc-ar-15.2"
       - "/home/jordan/.local/lib/hyde/gcc-ar-15.2"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ar-15.2"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ar-15.2"
       - "/home/jordan/.cargo/bin/gcc-ar-15.2"
       - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
@@ -1010,7 +1010,7 @@ events:
       - "/usr/local/bin/apps/gcc-ar-15"
       - "/home/jordan/.local/bin/gcc-ar-15"
       - "/home/jordan/.local/lib/hyde/gcc-ar-15"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ar-15"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ar-15"
       - "/home/jordan/.cargo/bin/gcc-ar-15"
       - "/usr/local/sbin/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
@@ -1026,7 +1026,7 @@ events:
       - "/usr/local/bin/apps/gcc-ar15"
       - "/home/jordan/.local/bin/gcc-ar15"
       - "/home/jordan/.local/lib/hyde/gcc-ar15"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ar15"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ar15"
       - "/home/jordan/.cargo/bin/gcc-ar15"
       - "/usr/local/sbin/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
@@ -1085,7 +1085,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1102,7 +1102,7 @@ events:
       - "/usr/local/bin/apps/gcc-ranlib-15.2"
       - "/home/jordan/.local/bin/gcc-ranlib-15.2"
       - "/home/jordan/.local/lib/hyde/gcc-ranlib-15.2"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ranlib-15.2"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ranlib-15.2"
       - "/home/jordan/.cargo/bin/gcc-ranlib-15.2"
       - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
@@ -1118,7 +1118,7 @@ events:
       - "/usr/local/bin/apps/gcc-ranlib-15"
       - "/home/jordan/.local/bin/gcc-ranlib-15"
       - "/home/jordan/.local/lib/hyde/gcc-ranlib-15"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ranlib-15"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ranlib-15"
       - "/home/jordan/.cargo/bin/gcc-ranlib-15"
       - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
@@ -1134,7 +1134,7 @@ events:
       - "/usr/local/bin/apps/gcc-ranlib15"
       - "/home/jordan/.local/bin/gcc-ranlib15"
       - "/home/jordan/.local/lib/hyde/gcc-ranlib15"
-      - "/home/jordan/Documents/coding/Raylib/game/build/gcc-ranlib15"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/gcc-ranlib15"
       - "/home/jordan/.cargo/bin/gcc-ranlib15"
       - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
@@ -1173,8 +1173,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp"
-      binary: "/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp"
+      source: "/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp"
+      binary: "/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1184,13 +1184,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp'
+        Change Dir: '/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50898/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_50898.dir/build.make CMakeFiles/cmTC_50898.dir/build
-        make[1]: Entering directory '/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp'
-        Building CXX object CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a898/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4a898.dir/build.make CMakeFiles/cmTC_4a898.dir/build
+        make[1]: Entering directory '/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp'
+        Building CXX object CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1198,8 +1198,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20250813 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_50898.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccyAFYWq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4a898.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cciL0cnG.s
         GNU C++17 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20250813, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1216,14 +1216,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 452a313327dacf71986995db29f6855a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/'
-         as -v --64 -o CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyAFYWq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciL0cnG.s
         GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_50898
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50898.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4a898
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a898.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1234,14 +1234,14 @@ events:
         gcc version 15.2.1 20250813 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50898.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM2HwsU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a898.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCf0Fn7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20250813
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM2HwsU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCf0Fn7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50898.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_50898
-        make[1]: Leaving directory '/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a898.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4a898
+        make[1]: Leaving directory '/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp'
         
       exitCode: 0
   -
@@ -1282,13 +1282,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp']
+        ignore line: [Change Dir: '/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50898/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_50898.dir/build.make CMakeFiles/cmTC_50898.dir/build]
-        ignore line: [make[1]: Entering directory '/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/CMakeScratch/TryCompile-2sUDYp']
-        ignore line: [Building CXX object CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a898/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_4a898.dir/build.make CMakeFiles/cmTC_4a898.dir/build]
+        ignore line: [make[1]: Entering directory '/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/CMakeScratch/TryCompile-BlyULp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1296,8 +1296,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_50898.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccyAFYWq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4a898.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cciL0cnG.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20250813 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20250813  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1314,14 +1314,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 452a313327dacf71986995db29f6855a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyAFYWq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciL0cnG.s]
         ignore line: [GNU assembler version 2.45.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_50898]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50898.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4a898]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a898.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1332,13 +1332,13 @@ events:
         ignore line: [gcc version 15.2.1 20250813 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50898.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM2HwsU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a898' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4a898.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCf0Fn7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccM2HwsU.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccCf0Fn7.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1353,7 +1353,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_50898] ==> ignore
+          arg [cmTC_4a898] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1365,7 +1365,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1376,7 +1376,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20250813]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM2HwsU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCf0Fn7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4a898 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_4a898.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1430,7 +1430,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1469,8 +1469,8 @@ events:
       - "/home/jordan/.local/bin/pkgconf"
       - "/home/jordan/.local/lib/hyde/pkg-config"
       - "/home/jordan/.local/lib/hyde/pkgconf"
-      - "/home/jordan/Documents/coding/Raylib/game/build/pkg-config"
-      - "/home/jordan/Documents/coding/Raylib/game/build/pkgconf"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/pkg-config"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/pkgconf"
       - "/home/jordan/.cargo/bin/pkg-config"
       - "/home/jordan/.cargo/bin/pkgconf"
       - "/usr/local/sbin/pkg-config"
@@ -1588,7 +1588,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1668,7 +1668,7 @@ events:
       - "/usr/local/bin/apps/"
       - "/home/jordan/.local/bin/"
       - "/home/jordan/.local/lib/hyde/"
-      - "/home/jordan/Documents/coding/Raylib/game/build/"
+      - "/home/jordan/Documents/coding/Raylib/todo_list/build/"
       - "/home/jordan/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1759,11 +1759,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/pkgRedirects/raylibConfig.cmake"
+        path: "/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/pkgRedirects/raylibConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/pkgRedirects/raylib-config.cmake"
+        path: "/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles/pkgRedirects/raylib-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1807,11 +1807,11 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/jordan/Documents/coding/Raylib/game/build/raylibConfig.cmake"
+        path: "/home/jordan/Documents/coding/Raylib/todo_list/build/raylibConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/jordan/Documents/coding/Raylib/game/build/raylib-config.cmake"
+        path: "/home/jordan/Documents/coding/Raylib/todo_list/build/raylib-config.cmake"
         mode: "config"
         reason: "no_exist"
       -

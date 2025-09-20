@@ -1,5 +1,6 @@
 #include <iostream>
 #include <raylib.h>
+#include "../includes/font/font.hpp"
 
 int main() {
 
@@ -12,6 +13,11 @@ int main() {
 
     SetTargetFPS(165);
 
+    // :: Initialize ::
+
+    // -- Load Fonts --
+    Fonts fonts;
+    fonts.LoadFonts();
 
     while (!WindowShouldClose()) {
         // :: UPDATE ::
@@ -20,12 +26,13 @@ int main() {
         BeginDrawing();
         {
             ClearBackground(BLACK);
-            DrawTexture(devbox, scrw/2 - devbox.width/2, scrh/2 - devbox.height/2, WHITE);
-            DrawText("This is text", 100, 200, 20, WHITE);
+            DrawTextEx(fonts.BoldPixels(), "This is a test!", (Vector2){400, 400}, 32, 2, WHITE);
         }
         EndDrawing();
     }
 
+    // Unload Sector
+    // fonts.UnloadFonts();
     UnloadTexture(devbox);
     CloseWindow();
 

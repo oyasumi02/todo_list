@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jordan/Documents/coding/Raylib/game
+CMAKE_SOURCE_DIR = /home/jordan/Documents/coding/Raylib/todo_list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jordan/Documents/coding/Raylib/game/build
+CMAKE_BINARY_DIR = /home/jordan/Documents/coding/Raylib/todo_list/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/Raylib/game/build/CMakeFiles /home/jordan/Documents/coding/Raylib/game/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles /home/jordan/Documents/coding/Raylib/todo_list/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/Raylib/game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named game
+# Target rules for targets named todo
 
 # Build rule for target.
-game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game
-.PHONY : game
+todo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 todo
+.PHONY : todo
 
 # fast build rule for target.
-game/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
-.PHONY : game/fast
+todo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/build
+.PHONY : todo/fast
+
+src/font/font.o: src/font/font.cpp.o
+.PHONY : src/font/font.o
+
+# target to build an object file
+src/font/font.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/font/font.cpp.o
+.PHONY : src/font/font.cpp.o
+
+src/font/font.i: src/font/font.cpp.i
+.PHONY : src/font/font.i
+
+# target to preprocess a source file
+src/font/font.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/font/font.cpp.i
+.PHONY : src/font/font.cpp.i
+
+src/font/font.s: src/font/font.cpp.s
+.PHONY : src/font/font.s
+
+# target to generate assembly for a file
+src/font/font.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/font/font.cpp.s
+.PHONY : src/font/font.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,8 +174,32 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/texture/textures/dev_textures.o: src/texture/textures/dev_textures.cpp.o
+.PHONY : src/texture/textures/dev_textures.o
+
+# target to build an object file
+src/texture/textures/dev_textures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o
+.PHONY : src/texture/textures/dev_textures.cpp.o
+
+src/texture/textures/dev_textures.i: src/texture/textures/dev_textures.cpp.i
+.PHONY : src/texture/textures/dev_textures.i
+
+# target to preprocess a source file
+src/texture/textures/dev_textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.i
+.PHONY : src/texture/textures/dev_textures.cpp.i
+
+src/texture/textures/dev_textures.s: src/texture/textures/dev_textures.cpp.s
+.PHONY : src/texture/textures/dev_textures.s
+
+# target to generate assembly for a file
+src/texture/textures/dev_textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s
+.PHONY : src/texture/textures/dev_textures.cpp.s
 
 # Help Target
 help:
@@ -161,10 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... game"
+	@echo "... todo"
+	@echo "... src/font/font.o"
+	@echo "... src/font/font.i"
+	@echo "... src/font/font.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/texture/textures/dev_textures.o"
+	@echo "... src/texture/textures/dev_textures.i"
+	@echo "... src/texture/textures/dev_textures.s"
 .PHONY : help
 
 

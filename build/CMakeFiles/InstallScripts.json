@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/jordan/Documents/coding/Raylib/game/build/cmake_install.cmake"
+		"/home/jordan/Documents/coding/Raylib/todo_list/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
