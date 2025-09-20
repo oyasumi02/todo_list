@@ -1,0 +1,3 @@
+/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/game.dir
+/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/edit_cache.dir
+/home/jordan/Documents/coding/Raylib/game/build/CMakeFiles/rebuild_cache.dir
