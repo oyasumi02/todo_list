@@ -1,6 +1,7 @@
 #include <iostream>
 #include <raylib.h>
 #include "../includes/font/font.hpp"
+#include "../includes/texture/load_textures.hpp"
 
 int main() {
 
@@ -8,8 +9,6 @@ int main() {
     const int scrh = 800;
 
     InitWindow(scrw, scrh, "A Window!");
-
-    Texture2D devbox = LoadTexture("../texture/dev_textures/devbox_64x64.png");
 
     SetTargetFPS(165);
 
@@ -19,9 +18,11 @@ int main() {
     Fonts fonts;
     fonts.LoadFonts();
 
+    TextureHandler texture_handler;
+    texture_handler.Initialize();
+
     while (!WindowShouldClose()) {
         // :: UPDATE ::
-
         // :: DRAW ::
         BeginDrawing();
         {
@@ -33,7 +34,7 @@ int main() {
 
     // Unload Sector
     // fonts.UnloadFonts();
-    UnloadTexture(devbox);
+    texture_handler.DeInitialize();
     CloseWindow();
 
     return 0;

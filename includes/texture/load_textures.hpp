@@ -1,8 +1,16 @@
 #pragma once
+#include "raylib.h"
+#include <map>
+#include <string>
 
-class LoadAllTextures {
+class TextureHandler {
 private:
-    int texture_count;
+    unsigned int texture_count;
+    std::map<std::string, Texture2D> textures;
 public:
     void Initialize();
+    void DeInitialize();
+
+    Texture2D Texture(std::string t);
+    unsigned int TextureCount();
 };

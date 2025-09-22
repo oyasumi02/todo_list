@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/texture/load_textures.o: src/texture/load_textures.cpp.o
+.PHONY : src/texture/load_textures.o
+
+# target to build an object file
+src/texture/load_textures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.o
+.PHONY : src/texture/load_textures.cpp.o
+
+src/texture/load_textures.i: src/texture/load_textures.cpp.i
+.PHONY : src/texture/load_textures.i
+
+# target to preprocess a source file
+src/texture/load_textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.i
+.PHONY : src/texture/load_textures.cpp.i
+
+src/texture/load_textures.s: src/texture/load_textures.cpp.s
+.PHONY : src/texture/load_textures.s
+
+# target to generate assembly for a file
+src/texture/load_textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.s
+.PHONY : src/texture/load_textures.cpp.s
+
 src/texture/textures/dev_textures.o: src/texture/textures/dev_textures.cpp.o
 .PHONY : src/texture/textures/dev_textures.o
 
@@ -201,6 +225,30 @@ src/texture/textures/dev_textures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s
 .PHONY : src/texture/textures/dev_textures.cpp.s
 
+src/texture/textures/todo_list.o: src/texture/textures/todo_list.cpp.o
+.PHONY : src/texture/textures/todo_list.o
+
+# target to build an object file
+src/texture/textures/todo_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o
+.PHONY : src/texture/textures/todo_list.cpp.o
+
+src/texture/textures/todo_list.i: src/texture/textures/todo_list.cpp.i
+.PHONY : src/texture/textures/todo_list.i
+
+# target to preprocess a source file
+src/texture/textures/todo_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.i
+.PHONY : src/texture/textures/todo_list.cpp.i
+
+src/texture/textures/todo_list.s: src/texture/textures/todo_list.cpp.s
+.PHONY : src/texture/textures/todo_list.s
+
+# target to generate assembly for a file
+src/texture/textures/todo_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.s
+.PHONY : src/texture/textures/todo_list.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,9 +264,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/texture/load_textures.o"
+	@echo "... src/texture/load_textures.i"
+	@echo "... src/texture/load_textures.s"
 	@echo "... src/texture/textures/dev_textures.o"
 	@echo "... src/texture/textures/dev_textures.i"
 	@echo "... src/texture/textures/dev_textures.s"
+	@echo "... src/texture/textures/todo_list.o"
+	@echo "... src/texture/textures/todo_list.i"
+	@echo "... src/texture/textures/todo_list.s"
 .PHONY : help
 
 

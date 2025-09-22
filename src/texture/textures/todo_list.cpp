@@ -7,3 +7,5 @@ void TodoListTextures::Load() {
 void TodoListTextures::Unload() {
     UnloadTexture(task_incomplete_256x128);
 }
+
+TodoListTextures todo_list_textures;

@@ -100,10 +100,24 @@ CMakeFiles/todo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/todo.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan/Documents/coding/Raylib/todo_list/src/main.cpp -o CMakeFiles/todo.dir/src/main.cpp.s
 
+CMakeFiles/todo.dir/src/texture/load_textures.cpp.o: CMakeFiles/todo.dir/flags.make
+CMakeFiles/todo.dir/src/texture/load_textures.cpp.o: /home/jordan/Documents/coding/Raylib/todo_list/src/texture/load_textures.cpp
+CMakeFiles/todo.dir/src/texture/load_textures.cpp.o: CMakeFiles/todo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/todo.dir/src/texture/load_textures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/todo.dir/src/texture/load_textures.cpp.o -MF CMakeFiles/todo.dir/src/texture/load_textures.cpp.o.d -o CMakeFiles/todo.dir/src/texture/load_textures.cpp.o -c /home/jordan/Documents/coding/Raylib/todo_list/src/texture/load_textures.cpp
+
+CMakeFiles/todo.dir/src/texture/load_textures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/todo.dir/src/texture/load_textures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan/Documents/coding/Raylib/todo_list/src/texture/load_textures.cpp > CMakeFiles/todo.dir/src/texture/load_textures.cpp.i
+
+CMakeFiles/todo.dir/src/texture/load_textures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/todo.dir/src/texture/load_textures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan/Documents/coding/Raylib/todo_list/src/texture/load_textures.cpp -o CMakeFiles/todo.dir/src/texture/load_textures.cpp.s
+
 CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o: CMakeFiles/todo.dir/flags.make
 CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o: /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/dev_textures.cpp
 CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o: CMakeFiles/todo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o -MF CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o.d -o CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o -c /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/dev_textures.cpp
 
 CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.i: cmake_force
@@ -114,23 +128,41 @@ CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/dev_textures.cpp -o CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s
 
+CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o: CMakeFiles/todo.dir/flags.make
+CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o: /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/todo_list.cpp
+CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o: CMakeFiles/todo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o -MF CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o.d -o CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o -c /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/todo_list.cpp
+
+CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/todo_list.cpp > CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.i
+
+CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/todo_list.cpp -o CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.s
+
 # Object files for target todo
 todo_OBJECTS = \
 "CMakeFiles/todo.dir/src/font/font.cpp.o" \
 "CMakeFiles/todo.dir/src/main.cpp.o" \
-"CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o"
+"CMakeFiles/todo.dir/src/texture/load_textures.cpp.o" \
+"CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o" \
+"CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o"
 
 # External object files for target todo
 todo_EXTERNAL_OBJECTS =
 
 todo: CMakeFiles/todo.dir/src/font/font.cpp.o
 todo: CMakeFiles/todo.dir/src/main.cpp.o
+todo: CMakeFiles/todo.dir/src/texture/load_textures.cpp.o
 todo: CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o
+todo: CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o
 todo: CMakeFiles/todo.dir/build.make
 todo: CMakeFiles/todo.dir/compiler_depend.ts
 todo: /usr/lib/libraylib.so
 todo: CMakeFiles/todo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable todo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jordan/Documents/coding/Raylib/todo_list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable todo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/todo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

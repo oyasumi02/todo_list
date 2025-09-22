@@ -11,3 +11,5 @@ public:
     void Load();
     void Unload();
 };
+
+extern TodoListTextures  todo_list_textures;
