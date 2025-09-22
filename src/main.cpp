@@ -23,6 +23,8 @@ int main() {
 
     while (!WindowShouldClose()) {
         // :: UPDATE ::
+        // TODO: Make switch states
+        
         // :: DRAW ::
         BeginDrawing();
         {
