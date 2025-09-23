@@ -2,6 +2,7 @@
 #include <raylib.h>
 #include "../includes/font/font.hpp"
 #include "../includes/program/screen_state.hpp"
+#include "../includes/texture/texture_handler.hpp"
 
 int main() {
 
@@ -18,7 +19,6 @@ int main() {
     fonts.LoadFonts();
 
     // -- Load Textures --
-    TextureHandler texture_handler;
     texture_handler.Initialize();
 
     while (!WindowShouldClose()) {
