@@ -1,4 +1,4 @@
-#include "../../includes/texture/load_textures.hpp"
+#include "../../includes/texture/texture_handler.hpp"
 // #include "../../includes/texture/textures/todo_list.hpp"
 #include "raylib.h"
 #include <iostream>
@@ -60,3 +60,5 @@ Texture2D TextureHandler::Texture(std::string t) {
 unsigned TextureHandler::TextureCount() {
     return texture_count;
 }
+
+TextureHandler texture_handler;

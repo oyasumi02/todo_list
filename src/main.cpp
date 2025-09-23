@@ -1,7 +1,6 @@
 #include <iostream>
 #include <raylib.h>
 #include "../includes/font/font.hpp"
-#include "../includes/texture/load_textures.hpp"
 #include "../includes/program/screen_state.hpp"
 
 int main() {
@@ -31,7 +30,7 @@ int main() {
         {
             switch (screen_state) {
                 case (ScreenState::TODO_LIST): {
-
+                    
                 } break;
 
                 case (ScreenState::DEBUG): {

@@ -14,3 +14,5 @@ public:
     Texture2D Texture(std::string t);
     unsigned int TextureCount();
 };
+
+extern TextureHandler texture_handler;
