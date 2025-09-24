@@ -15,7 +15,6 @@ enum class ButtonType {
 };
 
 class TDButton {
-
 public:
     TDButton() {}
 

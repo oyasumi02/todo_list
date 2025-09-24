@@ -6,5 +6,5 @@
 
 void DrawScreen::DrawTodoList(Vector2 mouse_point) {
     // Task Done Button
-    TDButton::Draw::TaskDone(mouse_point);
+    TDButton::Draw::TaskStatusButton(mouse_point);
 };

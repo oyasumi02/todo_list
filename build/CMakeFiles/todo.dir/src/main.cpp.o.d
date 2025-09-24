@@ -1,6 +1,10 @@
 CMakeFiles/todo.dir/src/main.cpp.o: \
  /home/jordan/Documents/coding/Raylib/todo_list/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15.2.1/iostream \
+ /usr/include/stdc-predef.h /usr/include/raylib.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/program/window.hpp \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/font/font.hpp \
+ /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -18,7 +22,6 @@ CMakeFiles/todo.dir/src/main.cpp.o: \
  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
@@ -174,9 +177,7 @@ CMakeFiles/todo.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/unicode-data.h \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/raylib.h \
- /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/program/window.hpp \
- /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/font/font.hpp \
+ /usr/include/c++/15.2.1/bits/istream.tcc \
  /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/program/screen_state.hpp \
  /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/texture/texture_handler.hpp \
  /usr/include/c++/15.2.1/map /usr/include/c++/15.2.1/bits/stl_tree.h \
