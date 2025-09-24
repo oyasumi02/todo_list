@@ -8,13 +8,14 @@
 
 void TDButton::Draw::TaskStatusButton(Vector2 mouse_point) {
     static ButtonState button_state = ButtonState::INACTIVE;
-    static ButtonType button_type = ButtonType::COMPLETE;
+    static ButtonType button_type = ButtonType::INCOMPLETE;
     bool button_action = false;
-    Texture2D button = texture_handler.Texture("button_task_done_256x128.png");
+    Texture2D button = texture_handler.Texture("button_task_incomplete_256x128.png");
 
     const Rectangle src_rec = {0, 0, (float)button.width, (float)button.height};
     const Rectangle btn_bounds = {SCRW/2.0f - button.width/2.0f, SCRH/2.0f, (float)button.width, (float)button.height};
 
+    // Check if mouse is in bounds
     if (CheckCollisionPointRec(mouse_point, btn_bounds)) {
         if (IsMouseButtonDown(MOUSE_BUTTON_LEFT)) {
             button_state = ButtonState::PRESSED;
@@ -30,21 +31,26 @@ void TDButton::Draw::TaskStatusButton(Vector2 mouse_point) {
         button_state = ButtonState::INACTIVE;
     }
 
+    // When button is clicked...
     if (button_action) {
         switch (button_type) {
+
+            // ...apply texture to appropriate button task state.
             case (ButtonType::INCOMPLETE): {
-                
+                texture_handler.Texture("button_task_done_256x128.png");
+                button_type = ButtonType::COMPLETE;
             } break;
 
             case (ButtonType::COMPLETE): {
-
+                texture_handler.Texture("button_task_missed_256x128.png");
+                button_type = ButtonType::MISSED;
             } break;
 
             case (ButtonType::MISSED): {
-
+                texture_handler.Texture("button_task_incomplete_256x128.png");
+                button_type = ButtonType::INCOMPLETE;
             } break;
         }
-        button_type = ButtonType::MISSED;
         TraceLog(LOG_INFO, "BUTTON HAS BEEN CLICKED");
     }
 
