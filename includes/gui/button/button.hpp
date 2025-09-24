@@ -8,6 +8,12 @@ enum class ButtonState {
     INDEX_END
 };
 
+enum class ButtonType {
+    INCOMPLETE,
+    COMPLETE,
+    MISSED
+};
+
 class TDButton {
 
 public:
@@ -15,7 +21,7 @@ public:
 
     // Draw Buttons here
     struct Draw {
-        static void TaskDone(Vector2 mouse_point);
+        static void TaskStatusButton(Vector2 mouse_point);
         static void TaskIncomplete();
         static void TaskMissed();
     };

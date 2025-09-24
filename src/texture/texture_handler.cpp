@@ -44,11 +44,11 @@ void TextureHandler::DeInitialize() {
 }
 
 Texture2D TextureHandler::Texture(std::string t) {
-    if (texture_count == 0) {
+    if (textures.empty()) {
         TraceLog(LOG_ERROR, TextFormat("[TEXTURE HANDLER] There are no textures in the textures map."));
     }
 
-    if (!(textures.find(t) != textures.end())) {
+    if (textures.find(t) == textures.end()) {
         TraceLog(LOG_ERROR, TextFormat("[TEXTURE HANDLER] Could not find texture \"%s\" in textures map."));
     }
 

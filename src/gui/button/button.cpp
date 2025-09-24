@@ -6,9 +6,10 @@
 
 // :: Draw Struct ::
 
-void TDButton::Draw::TaskDone(Vector2 mouse_point) {
+void TDButton::Draw::TaskStatusButton(Vector2 mouse_point) {
     static ButtonState button_state = ButtonState::INACTIVE;
-    static bool button_action = false;
+    static ButtonType button_type = ButtonType::COMPLETE;
+    bool button_action = false;
     Texture2D button = texture_handler.Texture("button_task_done_256x128.png");
 
     const Rectangle src_rec = {0, 0, (float)button.width, (float)button.height};
@@ -18,6 +19,7 @@ void TDButton::Draw::TaskDone(Vector2 mouse_point) {
         if (IsMouseButtonDown(MOUSE_BUTTON_LEFT)) {
             button_state = ButtonState::PRESSED;
         } else {
+            TraceLog(LOG_INFO, "Mouse is hovering over button!");
             button_state = ButtonState::HOVERED;
         }
 
@@ -29,7 +31,20 @@ void TDButton::Draw::TaskDone(Vector2 mouse_point) {
     }
 
     if (button_action) {
-        // TODO: Switch to task missed
+        switch (button_type) {
+            case (ButtonType::INCOMPLETE): {
+                
+            } break;
+
+            case (ButtonType::COMPLETE): {
+
+            } break;
+
+            case (ButtonType::MISSED): {
+
+            } break;
+        }
+        button_type = ButtonType::MISSED;
         TraceLog(LOG_INFO, "BUTTON HAS BEEN CLICKED");
     }
 
