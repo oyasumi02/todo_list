@@ -1,6 +1,4 @@
 #include "../../includes/gui/draw_screen.hpp"
-#include "../../includes/texture/texture_handler.hpp"
-#include "../../includes/program/window.hpp"
 #include "../../includes/gui/button/button.hpp"
 #include "raylib.h"
 
