@@ -153,6 +153,54 @@ src/font/font.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/font/font.cpp.s
 .PHONY : src/font/font.cpp.s
 
+src/gui/button/button.o: src/gui/button/button.cpp.o
+.PHONY : src/gui/button/button.o
+
+# target to build an object file
+src/gui/button/button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/button/button.cpp.o
+.PHONY : src/gui/button/button.cpp.o
+
+src/gui/button/button.i: src/gui/button/button.cpp.i
+.PHONY : src/gui/button/button.i
+
+# target to preprocess a source file
+src/gui/button/button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/button/button.cpp.i
+.PHONY : src/gui/button/button.cpp.i
+
+src/gui/button/button.s: src/gui/button/button.cpp.s
+.PHONY : src/gui/button/button.s
+
+# target to generate assembly for a file
+src/gui/button/button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/button/button.cpp.s
+.PHONY : src/gui/button/button.cpp.s
+
+src/gui/draw_screen.o: src/gui/draw_screen.cpp.o
+.PHONY : src/gui/draw_screen.o
+
+# target to build an object file
+src/gui/draw_screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/draw_screen.cpp.o
+.PHONY : src/gui/draw_screen.cpp.o
+
+src/gui/draw_screen.i: src/gui/draw_screen.cpp.i
+.PHONY : src/gui/draw_screen.i
+
+# target to preprocess a source file
+src/gui/draw_screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/draw_screen.cpp.i
+.PHONY : src/gui/draw_screen.cpp.i
+
+src/gui/draw_screen.s: src/gui/draw_screen.cpp.s
+.PHONY : src/gui/draw_screen.s
+
+# target to generate assembly for a file
+src/gui/draw_screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/gui/draw_screen.cpp.s
+.PHONY : src/gui/draw_screen.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,29 +225,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/texture/load_textures.o: src/texture/load_textures.cpp.o
-.PHONY : src/texture/load_textures.o
+src/texture/texture_handler.o: src/texture/texture_handler.cpp.o
+.PHONY : src/texture/texture_handler.o
 
 # target to build an object file
-src/texture/load_textures.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.o
-.PHONY : src/texture/load_textures.cpp.o
+src/texture/texture_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/texture_handler.cpp.o
+.PHONY : src/texture/texture_handler.cpp.o
 
-src/texture/load_textures.i: src/texture/load_textures.cpp.i
-.PHONY : src/texture/load_textures.i
+src/texture/texture_handler.i: src/texture/texture_handler.cpp.i
+.PHONY : src/texture/texture_handler.i
 
 # target to preprocess a source file
-src/texture/load_textures.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.i
-.PHONY : src/texture/load_textures.cpp.i
+src/texture/texture_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/texture_handler.cpp.i
+.PHONY : src/texture/texture_handler.cpp.i
 
-src/texture/load_textures.s: src/texture/load_textures.cpp.s
-.PHONY : src/texture/load_textures.s
+src/texture/texture_handler.s: src/texture/texture_handler.cpp.s
+.PHONY : src/texture/texture_handler.s
 
 # target to generate assembly for a file
-src/texture/load_textures.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/load_textures.cpp.s
-.PHONY : src/texture/load_textures.cpp.s
+src/texture/texture_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/texture_handler.cpp.s
+.PHONY : src/texture/texture_handler.cpp.s
 
 src/texture/textures/dev_textures.o: src/texture/textures/dev_textures.cpp.o
 .PHONY : src/texture/textures/dev_textures.o
@@ -225,30 +273,6 @@ src/texture/textures/dev_textures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.s
 .PHONY : src/texture/textures/dev_textures.cpp.s
 
-src/texture/textures/todo_list.o: src/texture/textures/todo_list.cpp.o
-.PHONY : src/texture/textures/todo_list.o
-
-# target to build an object file
-src/texture/textures/todo_list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o
-.PHONY : src/texture/textures/todo_list.cpp.o
-
-src/texture/textures/todo_list.i: src/texture/textures/todo_list.cpp.i
-.PHONY : src/texture/textures/todo_list.i
-
-# target to preprocess a source file
-src/texture/textures/todo_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.i
-.PHONY : src/texture/textures/todo_list.cpp.i
-
-src/texture/textures/todo_list.s: src/texture/textures/todo_list.cpp.s
-.PHONY : src/texture/textures/todo_list.s
-
-# target to generate assembly for a file
-src/texture/textures/todo_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.s
-.PHONY : src/texture/textures/todo_list.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,18 +285,21 @@ help:
 	@echo "... src/font/font.o"
 	@echo "... src/font/font.i"
 	@echo "... src/font/font.s"
+	@echo "... src/gui/button/button.o"
+	@echo "... src/gui/button/button.i"
+	@echo "... src/gui/button/button.s"
+	@echo "... src/gui/draw_screen.o"
+	@echo "... src/gui/draw_screen.i"
+	@echo "... src/gui/draw_screen.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/texture/load_textures.o"
-	@echo "... src/texture/load_textures.i"
-	@echo "... src/texture/load_textures.s"
+	@echo "... src/texture/texture_handler.o"
+	@echo "... src/texture/texture_handler.i"
+	@echo "... src/texture/texture_handler.s"
 	@echo "... src/texture/textures/dev_textures.o"
 	@echo "... src/texture/textures/dev_textures.i"
 	@echo "... src/texture/textures/dev_textures.s"
-	@echo "... src/texture/textures/todo_list.o"
-	@echo "... src/texture/textures/todo_list.i"
-	@echo "... src/texture/textures/todo_list.s"
 .PHONY : help
 
 

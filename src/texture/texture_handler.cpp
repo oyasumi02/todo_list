@@ -8,7 +8,7 @@ using namespace std;
 
 void TextureHandler::Initialize() {
     string texture_path = "../texture/";
-    int texture_count;
+    static int texture_count;
     TraceLog(LOG_INFO, "[TEXTURE HANDLER] LOADING TEXTURES...");
     try {
         for (const auto& texture : filesystem::recursive_directory_iterator(texture_path)) {

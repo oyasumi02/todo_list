@@ -9,10 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jordan/Documents/coding/Raylib/todo_list/src/font/font.cpp" "CMakeFiles/todo.dir/src/font/font.cpp.o" "gcc" "CMakeFiles/todo.dir/src/font/font.cpp.o.d"
+  "/home/jordan/Documents/coding/Raylib/todo_list/src/gui/button/button.cpp" "CMakeFiles/todo.dir/src/gui/button/button.cpp.o" "gcc" "CMakeFiles/todo.dir/src/gui/button/button.cpp.o.d"
+  "/home/jordan/Documents/coding/Raylib/todo_list/src/gui/draw_screen.cpp" "CMakeFiles/todo.dir/src/gui/draw_screen.cpp.o" "gcc" "CMakeFiles/todo.dir/src/gui/draw_screen.cpp.o.d"
   "/home/jordan/Documents/coding/Raylib/todo_list/src/main.cpp" "CMakeFiles/todo.dir/src/main.cpp.o" "gcc" "CMakeFiles/todo.dir/src/main.cpp.o.d"
-  "/home/jordan/Documents/coding/Raylib/todo_list/src/texture/load_textures.cpp" "CMakeFiles/todo.dir/src/texture/load_textures.cpp.o" "gcc" "CMakeFiles/todo.dir/src/texture/load_textures.cpp.o.d"
+  "/home/jordan/Documents/coding/Raylib/todo_list/src/texture/texture_handler.cpp" "CMakeFiles/todo.dir/src/texture/texture_handler.cpp.o" "gcc" "CMakeFiles/todo.dir/src/texture/texture_handler.cpp.o.d"
   "/home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/dev_textures.cpp" "CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o" "gcc" "CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o.d"
-  "/home/jordan/Documents/coding/Raylib/todo_list/src/texture/textures/todo_list.cpp" "CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o" "gcc" "CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o.d"
   "" "todo" "gcc" "CMakeFiles/todo.dir/link.d"
   )
 

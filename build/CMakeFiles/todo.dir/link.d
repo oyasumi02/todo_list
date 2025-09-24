@@ -3,10 +3,11 @@ todo: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/todo.dir/src/font/font.cpp.o \
+  CMakeFiles/todo.dir/src/gui/button/button.cpp.o \
+  CMakeFiles/todo.dir/src/gui/draw_screen.cpp.o \
   CMakeFiles/todo.dir/src/main.cpp.o \
-  CMakeFiles/todo.dir/src/texture/load_textures.cpp.o \
+  CMakeFiles/todo.dir/src/texture/texture_handler.cpp.o \
   CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o \
-  CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o \
   /usr/lib/libraylib.so \
   /usr/lib/libraylib.so \
   /usr/lib/libstdc++.so \
@@ -45,13 +46,15 @@ todo: \
 
 CMakeFiles/todo.dir/src/font/font.cpp.o:
 
+CMakeFiles/todo.dir/src/gui/button/button.cpp.o:
+
+CMakeFiles/todo.dir/src/gui/draw_screen.cpp.o:
+
 CMakeFiles/todo.dir/src/main.cpp.o:
 
-CMakeFiles/todo.dir/src/texture/load_textures.cpp.o:
+CMakeFiles/todo.dir/src/texture/texture_handler.cpp.o:
 
 CMakeFiles/todo.dir/src/texture/textures/dev_textures.cpp.o:
-
-CMakeFiles/todo.dir/src/texture/textures/todo_list.cpp.o:
 
 /usr/lib/libraylib.so:
 

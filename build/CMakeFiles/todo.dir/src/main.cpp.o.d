@@ -175,11 +175,14 @@ CMakeFiles/todo.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/unicode-data.h \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
  /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/raylib.h \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/program/window.hpp \
  /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/font/font.hpp \
- /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/texture/load_textures.hpp \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/program/screen_state.hpp \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/texture/texture_handler.hpp \
  /usr/include/c++/15.2.1/map /usr/include/c++/15.2.1/bits/stl_tree.h \
  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/stl_map.h \
  /usr/include/c++/15.2.1/bits/stl_multimap.h \
- /usr/include/c++/15.2.1/bits/erase_if.h
+ /usr/include/c++/15.2.1/bits/erase_if.h \
+ /home/jordan/Documents/coding/Raylib/todo_list/src/../includes/gui/draw_screen.hpp

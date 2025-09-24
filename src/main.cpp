@@ -4,13 +4,16 @@
 #include "../includes/font/font.hpp"
 #include "../includes/program/screen_state.hpp"
 #include "../includes/texture/texture_handler.hpp"
+#include "../includes/gui/draw_screen.hpp"
 
 int main() {
 
     // :: Initialize ::
+    // -- Variables --
     InitWindow(SCRW, SCRH, "To-Do List");
     SetTargetFPS(165);
-    ScreenState screen_state = ScreenState::TODO_LIST;
+    ScreenState screen_state = ScreenState::DEBUG;
+    Vector2 mouse_point = {0.0f, 0.0f};
 
     // -- Load Fonts --
     Fonts fonts;
@@ -21,6 +24,9 @@ int main() {
 
     while (!WindowShouldClose()) {
         // :: UPDATE ::
+        // -- Variable updates --
+        mouse_point = GetMousePosition();
+
         // TODO: Make switch states
         
         // :: DRAW ::
@@ -32,7 +38,7 @@ int main() {
                 } break;
 
                 case (ScreenState::DEBUG): {
-
+                    DrawScreen::DrawTodoList(mouse_point);
                 } break;
 
                 case (ScreenState::QUIT): {
