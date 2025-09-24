@@ -1,5 +1,4 @@
 #include "../../includes/texture/texture_handler.hpp"
-// #include "../../includes/texture/textures/todo_list.hpp"
 #include "raylib.h"
 #include <iostream>
 #include <string>

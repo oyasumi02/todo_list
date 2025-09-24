@@ -1,20 +1,19 @@
 #include "../../../includes/gui/button/button.hpp"
 #include "../../../includes/texture/texture_handler.hpp"
+#include "../../../includes/program/window.hpp"
 #include "raylib.h"
 
-void TDButton::SetButtonState(ButtonState s) {
-    button_state = s;
-}
-
-ButtonState TDButton::GetButtonState() {
-    return button_state;
-}
 
 // :: Draw Struct ::
 
 void TDButton::Draw::TaskDone() {
+    static bool button_action = false;
     Texture2D texture = texture_handler.Texture("button_task_done_256x128.png");
-    static Rectangle src_rec = {0, 0, (float)texture.width, }
+
+    const Rectangle src_rec = {0, 0, (float)texture.width, (float)texture.height};
+    const Rectangle btn_bounds = {SCRW/2.0f - texture.width/2.0f, SCRH/2.0f, (float)texture.width, (float)texture.height};
+
+    
 }
 
 void TDButton::Draw::TaskIncomplete() {

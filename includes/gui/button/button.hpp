@@ -3,18 +3,14 @@
 enum class ButtonState {
     INACTIVE,
     HOVERED,
-    PRESSED
+    PRESSED,
+    INDEX_END
 };
 
 class TDButton {
-private:
-    ButtonState button_state;
+
 public:
-    TDButton() {
-        button_state = ButtonState::INACTIVE;
-    }
-    void SetButtonState(ButtonState s);
-    ButtonState GetButtonState();
+    TDButton() {}
 
     // Draw Buttons here
     struct Draw {
