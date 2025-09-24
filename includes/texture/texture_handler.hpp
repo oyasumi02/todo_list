@@ -13,6 +13,7 @@ public:
 
     Texture2D Texture(std::string t);
     unsigned int TextureCount();
+    std::map<std::string, Texture2D>
 };
 
 extern TextureHandler texture_handler;

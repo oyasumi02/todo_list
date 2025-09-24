@@ -1,16 +1,14 @@
 #include <iostream>
 #include <raylib.h>
+#include "../includes/program/window.hpp"
 #include "../includes/font/font.hpp"
 #include "../includes/program/screen_state.hpp"
 #include "../includes/texture/texture_handler.hpp"
 
 int main() {
 
-    const int scrw = 1600;
-    const int scrh = 800;
-
     // :: Initialize ::
-    InitWindow(scrw, scrh, "To-Do List");
+    InitWindow(SCRW, SCRH, "To-Do List");
     SetTargetFPS(165);
     ScreenState screen_state = ScreenState::TODO_LIST;
 
