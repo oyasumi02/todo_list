@@ -1,4 +1,3 @@
-#include <iostream>
 #include <raylib.h>
 #include "../includes/program/window.hpp"
 #include "../includes/font/font.hpp"
