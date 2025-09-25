@@ -24,7 +24,7 @@ public:
         static void TaskIncomplete();
         static void TaskMissed();
     };
-
+    
     Draw draw;
 };
 

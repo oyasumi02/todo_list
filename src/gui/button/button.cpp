@@ -10,22 +10,22 @@ void TDButton::Draw::TaskStatusButton(Vector2 mouse_point) {
     static ButtonState button_state = ButtonState::INACTIVE;
     static ButtonType button_type = ButtonType::INCOMPLETE;
     bool button_action = false;
-    Texture2D button = texture_handler.Texture("button_task_incomplete_256x128.png");
+    static Texture2D button = texture_handler.Texture("button_task_incomplete_256x128.png");
 
     const Rectangle src_rec = {0, 0, (float)button.width, (float)button.height};
     const Rectangle btn_bounds = {SCRW/2.0f - button.width/2.0f, SCRH/2.0f, (float)button.width, (float)button.height};
 
     // Check if mouse is in bounds
     if (CheckCollisionPointRec(mouse_point, btn_bounds)) {
-        if (IsMouseButtonDown(MOUSE_BUTTON_LEFT)) {
+        if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
             button_state = ButtonState::PRESSED;
+            button_action = true;
         } else {
-            TraceLog(LOG_INFO, "Mouse is hovering over button!");
             button_state = ButtonState::HOVERED;
         }
 
         if (IsMouseButtonReleased(MOUSE_BUTTON_LEFT)) {
-            button_action = true;
+            TraceLog(LOG_DEBUG, "TASK BUTTON RELEASE");
         }
     } else {
         button_state = ButtonState::INACTIVE;
@@ -37,17 +37,17 @@ void TDButton::Draw::TaskStatusButton(Vector2 mouse_point) {
 
             // ...apply texture to appropriate button task state.
             case (ButtonType::INCOMPLETE): {
-                texture_handler.Texture("button_task_done_256x128.png");
+                button = texture_handler.Texture("button_task_done_256x128.png");
                 button_type = ButtonType::COMPLETE;
             } break;
 
             case (ButtonType::COMPLETE): {
-                texture_handler.Texture("button_task_missed_256x128.png");
+                button = texture_handler.Texture("button_task_missed_256x128.png");
                 button_type = ButtonType::MISSED;
             } break;
 
             case (ButtonType::MISSED): {
-                texture_handler.Texture("button_task_incomplete_256x128.png");
+                button = texture_handler.Texture("button_task_incomplete_256x128.png");
                 button_type = ButtonType::INCOMPLETE;
             } break;
         }

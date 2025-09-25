@@ -31,6 +31,7 @@ int main() {
         // :: DRAW ::
         BeginDrawing();
         {
+            ClearBackground(WHITE);
             switch (screen_state) {
                 case (ScreenState::TODO_LIST): {
                     
@@ -44,7 +45,6 @@ int main() {
 
                 } break;
             }
-            ClearBackground(BLACK);
             DrawTextEx(fonts.BoldPixels(), "This is a test!", (Vector2){400, 400}, 32, 2, WHITE);
         }
         EndDrawing();
